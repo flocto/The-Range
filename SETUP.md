@@ -9,6 +9,7 @@ This guide will teach you how to set up a CTFd instance using Docker and Docker 
 - Money (or cloud platform credits)
 
 ### **<span style="color:#ff5000"> Note: This guide does not cover how to set up individual challenges. It only covers how to set up the overall CTFd website.</span>**
+If you want to know how to set up individual challenges, refer to [this guide](DEPLOY.md).
 
 ---
 
@@ -117,7 +118,7 @@ docker compose up -d --build
 
 ![Building the CTFd images](img/ctfd_dockerup.png)
 
-When all is said and done, you should be able to access the CTFd instance at `http://<server_ip>:8000`. You can also access the admin panel at `http://<server_ip>:8000/admin`.
+When all is said and done, you should be able to access the CTFd instance at `http://<server_ip>:80`. You can also access the admin panel at `http://<server_ip>:80/admin`.
 
 To check that your CTFd instance is running, run the following command, and you should see all 4 containers running.
 
@@ -127,7 +128,7 @@ docker ps
 
 ![Checking that the CTFd containers are running](img/ctfd_dockerps.png)
 
-Access your CTFd instance at `http://<server_ip>:8000`. You should see a setup page. Fill out the form (everything can be edited later).
+Access your CTFd instance at `http://<server_ip>:80`. You should see a setup page. Fill out the form (everything can be edited later).
 
 # Step 4: Done!
 Now that you have a CTFd instance running, there a few things to do before fully launching the CTF.
