@@ -1,3 +1,5 @@
+## Note: This repository contains nothing but a guide that has been ported over to my [website](https://flocto.github.io/blog/2023/ctfd-setup-guide/)
+
 # The Range
 This is a repository for the CTFd instance for The Range, a practice CTF hosted by the CHCC team.
 
